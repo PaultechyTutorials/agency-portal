@@ -1,6 +1,6 @@
 # 🖥️ Paultechy & Tutorials Portal
 
-Welcome to the digital headquarters of **Paultechy & Tutorials**! This is an interactive, fully responsive client portal designed to highlight premium tech education and local digital services based out of Surulere, Lagos.
+Welcome to the digital headquarters of **Paultechy & Tutorials**! This is an interactive, fully responsive client portal designed to highlight premium tech education and digital services.
 
 ## 🚀 Live Storefront
 Check out our deployed business funnel and contact us directly here:
