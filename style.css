@@ -209,4 +209,34 @@ body.dark-mode p {
 .service-box:nth-child(3) {
     animation-delay: 0.6s; /* Waits 0.6 seconds before starting */
 }
+/* 📱 MOBILE RESPONSIVE MEDIA QUERY */
+/* This code triggers ONLY when the screen width is 768px or smaller */
+@media screen and (max-width: 768px) {
+    
+    body {
+        padding: 20px 10px; /* Reduces spacing on small phone edges */
+    }
+
+    #app-container {
+        gap: 25px; /* Brings sections closer together on mobile */
+    }
+
+    main {
+        padding: 25px 20px; /* Makes the main profile card more compact */
+    }
+
+    h1 {
+        font-size: 26px; /* Shrinks the main title so it fits on one line */
+    }
+
+    /* Changes your 3 service boxes from a side-by-side grid into a clean, vertical stack */
+    .services-grid {
+        grid-template-columns: 1fr; /* Forces exactly ONE box per row */
+        gap: 15px;
+    }
+
+    .service-box {
+        padding: 20px; /* Makes padding tighter inside mobile cards */
+    }
+}
 
